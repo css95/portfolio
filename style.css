@@ -132,6 +132,33 @@ nav {
     display: none;
 }
 
+.nav-drawer {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem var(--side-padding);
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-110%);
+    transition: transform 0.3s ease;
+    z-index: 99;
+}
+
+.nav-drawer a {
+    font-size: 1rem;
+    color: var(--ink-muted);
+    text-decoration: none;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.nav-drawer a:last-child {
+    border-bottom: none;
+}
+
 /*SECTIONS*/
 
 .section-label {
@@ -551,6 +578,10 @@ footer {
     /* Nav */
     .nav-links {
         display: none;
+    }
+
+    .nav-drawer.open {
+        transform: translateY(0);
     }
 
     .hamburger {
