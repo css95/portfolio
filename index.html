@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolin Steilner - Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <a href="#hero" class="nav-logo">Carolin Steilner</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section id="hero">
+        <h1 class="hero-flip">
+            <span class="flip-front">Carolin Steilner</span>
+            <span class="flip-back">Frontend Developer</span>
+        </h1>
+        <p>YH student based in Solna, building clean and thoughtful web experiences.</p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn-primary">View my work ↓</a>
+            <a href="https://github.com/css95" target="_blank" class="btn-secondary">GitHub ↗</a>
+        </div>
+    </section>
+
+    <hr class="divider"/>
+
+    <section id="about">
+        <p class="section-label">Who I am</p>
+        <h2 class="section-title">About me</h2>
+        <div class="about-inner">
+            <img src="images/Carolin_Steilner_profile.jpg" alt="Carolin Steilner" class="about-photo" />
+            <div class="about-text">
+                <p>I'm a frontend developer in training at Nackademin, based in Solna.</p>
+                <p>I enjoy the intersection of design and code — building things that look good and work well. I'm originally from Germany, which means I bring a bit of extra precision to everything I do.</p>
+                <p>When I'm not coding, I'm probably running in the forest, reading, or getting lost in a video game.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider"/>
+
+    <section id="skills">
+        <p class="section-label">What I work with</p>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+                <span>HTML</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+                <span>CSS</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+                <span>Figma</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass" />
+                <span>SCSS</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                <span>Git</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-original.svg" alt="Ubuntu" />
+                <span>Ubuntu</span>
+            </div>
+        </div>
+
+        <div class="skills-learning">
+            <p><strong>Currently learning:</strong> JavaScript deeper, agile methodologies (Scrum & Kanban)</p>
+        </div>
+    </section>
+
+    <hr class="divider"/>
+
+    <section id="projects">
+        <p class="section-label">Selected work</p>
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <span class="project-num">01</span>
+                <h3 class="project-title">🐶🌱 Pet Garden</h3>
+                <p class="project-desc">A browser-based Tamagotchi-style game built as the final project in my JavaScript 2 course. Manage multiple pets with energy, fullness, and happiness stats that decay over time. Features OOP with a Pet class, a live auto-decay timer, and random name generation via an external API.</p>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo ↗</a>
+                        <a href="#" target="_blank">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-num">02</span>
+                <h3 class="project-title">🎬 Film Quiz</h3>
+                <p class="project-desc">An interactive film trivia quiz built as the final project in my JavaScript 1 course. Supports three question types: true/false, multiple choice, and multiple correct answers. Includes score tracking, a detailed results review, and a dark mode toggle.</p>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo ↗</a>
+                        <a href="#" target="_blank">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-num">03</span>
+                <h3 class="project-title">🎨 Penseldrag AB — Services Page</h3>
+                <p class="project-desc">A multi-page website for a fictional painting company in Stockholm. My contribution: the Services page — layout, responsive design, and accessible collapsible sections. Group project with a focus on accessibility across mobile, tablet, and desktop.</p>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">SCSS</span>
+                        <span class="tag">Accessibility</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience">
+        <p class="section-label">Where I've worked</p>
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline-inner">
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span class="timeline-date">Sep 2024 – Feb 2025</span>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Video Production Intern</h3>
+                        <p class="timeline-place">Nobel Prize Outreach, Stockholm</p>
+                        <p class="timeline-desc">Produced video content for Nobel Prize social media and nobelprize.org, including short and long format content in DaVinci Resolve. Assisted with YouTube scheduling, metadata management, and live broadcasts of official Nobel Prize events.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">Sep 2021 – Jun 2022</span>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Music Content Reviewer & Metadata Specialist</h3>
+                        <p class="timeline-place">Welocalize, Austin, USA</p>
+                        <p class="timeline-desc">Reviewed German music content for a major American music streaming client. Quality control of music, lyrics and metadata.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">Oct 2020 – Apr 2021</span>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Festival Programmer</h3>
+                        <p class="timeline-place">Fusion Film Festival, New York, USA</p>
+                        <p class="timeline-desc">Assisted in organising the virtual Fusion Film Festival 2021, celebrating women in film, TV and new media.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">Nov 2016 – Feb 2017</span>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Production Intern</h3>
+                        <p class="timeline-place">Bavaria Fiction GmbH, München, Germany</p>
+                        <p class="timeline-desc">Supported the director's department in pre-production and production of a daily drama series.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="divider"/>
+
+    <section id="education">
+    <p class="section-label">Where I've studied</p>
+    <h2 class="section-title">Education</h2>
+    <div class="timeline-inner">
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <span class="timeline-date">Aug 2025 – Jun 2027</span>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Frontend Developer, YH</h3>
+                    <p class="timeline-place">Nackademin, Solna</p>
+                    <p class="timeline-desc">Focus on frontend development with HTML, CSS, JavaScript and modern frameworks, as well as UX/UI, accessibility and agile methodologies.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">Sep 2022 – Dec 2023</span>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Computer Graphics for Games and Film, BSc</h3>
+                    <p class="timeline-place">Luleå University of Technology, Skellefteå</p>
+                    <p class="timeline-desc">Focus on 3D modelling, animation and visual effects for film, TV and video games.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">Sep 2019 – May 2021</span>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Master of Arts in Cinema Studies</h3>
+                    <p class="timeline-place">New York University, Tisch School of the Arts</p>
+                    <p class="timeline-desc">Studies in film and media history, theory and criticism.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">Oct 2014 – Nov 2018</span>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">BA in Literature, Art and Media Studies</h3>
+                    <p class="timeline-place">Universität Konstanz, Germany</p>
+                    <p class="timeline-desc">Interdisciplinary studies in literature, art and media. Student representative on the faculty council.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </section>
+
+    <hr class="divider"/>
+
+    <section id="contact">
+        <p class="section-label">Get in touch</p>
+        <h2 class="section-title">Let's talk!</h2>
+        <div class="contact-inner">
+            <a href="mailto:steilner.carolin@gmail.com" class="btn-secondary">steilner.carolin@gmail.com</a>
+            <a href="https://github.com/css95" target="_blank" class="btn-secondary">GitHub ↗</a>
+            <a href="https://linkedin.com/in/carolin-steilner" target="_blank" class="btn-secondary">LinkedIn ↗</a>
+        </div>
+    </section>
+
+    <footer>Carolin Steilner © 2026</footer>
+    
+</body>
+</html>
